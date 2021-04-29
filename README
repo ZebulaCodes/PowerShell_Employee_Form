@@ -1,0 +1,13 @@
+I'm new to my current company as a SysAdmin and recently there was a discussion that HR doesn't have the proper permissions to add new employee information into our system 
+(which I thought was somewhat strange, but oh well). They usually pop and email over to me and my two coworkers to add the employee into our system. 
+I had some extra time so I thought, "I'm going to see if I can script this".
+
+Basically the script populates a form that asks for the employee ID, first name, last name, labor class, time type and shop. 
+After that is all entered, it populates a separate form where the HR user can add the necessary roles for the new employee (timecard, employee type, etc.)
+
+All the data gets added to our SQL database which houses all of the employee information as well as some other things. 
+Once that has been added, if the user were to look in the actual system for the employee they would see all of their information properly set up. 
+
+This requires the SqlServer module to be installed for the script to function.
+
+The script posted is the 'core' idea. Feel free to take it and modify it to your needs. Be creative!
