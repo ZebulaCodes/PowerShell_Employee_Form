@@ -135,7 +135,7 @@ $shopMenuYPosition = 500
 
 ## Form itself
 $objForm = New-Object System.Windows.Forms.Form 
-$objForm.Text = "AiM Employee Form"
+$objForm.Text = "Employee Form"
 $objForm.Size = New-Object System.Drawing.Size($formWidth,$formHeight) 
 $objForm.StartPosition = "CenterScreen"
 
@@ -472,7 +472,7 @@ if ($result -eq [System.Windows.Forms.DialogResult]::OK)
 
         ## Form itself
         $objForm = New-Object System.Windows.Forms.Form 
-        $objForm.Text = "AiM Employee Roles"
+        $objForm.Text = "Employee Roles"
         $objForm.Size = New-Object System.Drawing.Size($formWidth,$formHeight) 
         $objForm.StartPosition = "CenterScreen"
 
